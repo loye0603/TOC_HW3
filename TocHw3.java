@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.json.*;
-public class TocHW3 {
+public class TocHw3 {
         private static Object obj;
         public static void main(String[] args) throws Exception {
                 try
