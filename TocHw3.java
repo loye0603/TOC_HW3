@@ -13,23 +13,23 @@ public class TocHW3 {
                 String city,roadname,price,address,URLNAME;
 				int year,year2 = 0,count=0;
                 double price1=0.0;
-               //URLNAME=args[0];
-              //  city=args[1];
-               // roadname=args[2];
-               // year=Integer.parseInt(args[3]);
-                 city="大安區";
+               URLNAME=args[0];
+                city=args[1];
+               roadname=args[2];
+                year=Integer.parseInt(args[3]);
+               /*  city="大安區";
                  roadname="復興南路";
                  year=103;
-                
+                */
                 
                 
                 
                 
                // connect to URL
                 HttpURLConnection conn = null;
-                URL url = new URL(
-                        "http://www.datagarage.io/api/5365dee31bc6e9d9463a0057");  
-                //URL url = new URL(URLNAME);  
+                /*URL url = new URL(
+                        "http://www.datagarage.io/api/5365dee31bc6e9d9463a0057");*/  
+                URL url = new URL(URLNAME);  
                 conn = (HttpURLConnection) url.openConnection();
                // conn.setReadTimeout(10000);
                // conn.setConnectTimeout(15000);
